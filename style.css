@@ -1,0 +1,172 @@
+* {
+  color: #fef0c9;
+}
+
+body {
+  background-color: #271f30;
+}
+
+h1 {
+  font-family: "Luminari", fantasy;
+  margin: 20px 0;
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  background-color: rgba(255, 69, 0, 0.7);
+  border-radius: 3px;
+  text-align: center;
+  margin-bottom: 0;
+  box-shadow: 5px 0 10px #888888;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Luminari", fantasy;
+  margin-bottom: 0;
+  padding: 0 10px;
+  font-size: 30px;
+}
+
+p {
+  font-size: 16px;
+  font-family: roboto;
+  padding: 10px;
+  line-height: 1.4;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.content-row {
+  display: flex;
+}
+
+.content-row div {
+  margin: 20px;
+}
+
+.content-row p {
+  background-color: rgba(119, 136, 153, 0.4);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px #888888;
+  margin-bottom: 10px;
+}
+
+.content-row img {
+  border: 3px solid rgba(119, 136, 153, 0.9);
+}
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.container header nav a {
+  margin: 0 10px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px 0;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 20px;
+  background-color: coral;
+  animation: spin 0.35s ease-out infinite alternate;
+  animation-play-state: paused;
+}
+
+.container header nav a:hover {
+  background-color: rgb(255, 69, 0);
+  color: white;
+  animation-play-state: running;
+}
+
+@keyframes spin {
+  50% {
+    border-radius: 10px 10px;
+  }
+  100% {
+    border-radius: 0 20px;
+  }
+}
+
+.about {
+  margin-top: 20px;
+}
+
+.about p {
+  background-color: rgba(119, 136, 153, 0.4);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px #888888;
+  margin-bottom: 10px;
+}
+
+.content-row h2 {
+  margin: 0;
+}
+
+.contact-section {
+  border-top: 1px dashed black;
+  padding: 20px 0;
+}
+
+.contact-section h2 {
+  padding: 0;
+  margin: 0;
+}
+
+address {
+  line-height: 2;
+  text-align: center;
+  background-color: rgba(119, 136, 153, 0.4);
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px #888888;
+}
+
+footer {
+  width: 100%;
+  background: rgba(255, 69, 0, 0.7);
+  border-top: 1px dashed white;
+}
+
+footer .footer-content {
+  margin: 0 auto;
+  width: 600px;
+}
+
+footer .footer-content h3 {
+  padding: 0;
+  margin: 20px 0;
+  text-align: center;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  margin: 10px;
+  color: #fef0c9;
+  text-decoration: none;
+}
+
+footer nav a:first-child {
+  margin-left: 0;
+}
+
+footer a:hover {
+  color: silver;
+  font-size: 24px;
+}
+
+footer .footer-content .copyright {
+  padding: 20px 0;
+  text-align: center;
+}
